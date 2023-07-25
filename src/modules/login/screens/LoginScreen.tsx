@@ -17,7 +17,6 @@ const LoginScreen = () => {
 
   const handleUsername = (event: React.ChangeEvent<HTMLInputElement>) => {
     setUsername(event.target.value);
-    console.log(setUsername);
   };
 
   const handlePassord = (event: React.ChangeEvent<HTMLInputElement>) => {
